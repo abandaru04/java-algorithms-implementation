@@ -3,7 +3,7 @@ package com.jwetherell.algorithms.mathematics;
 public class Division {
 
     public static final long division(int a, int b) {
-       
+       // Expection Handler
         try {
             long result = ((long) a) / ((long) b);
         } catch (IllegalArgumentException e) {
